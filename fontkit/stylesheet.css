@@ -43,3 +43,11 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'rationale';
+    src: url('rationale.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
