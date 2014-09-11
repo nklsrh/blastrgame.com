@@ -19,8 +19,13 @@ h1
 
 h3
 {
-    font-size: 1em;
-    margin: 10px 0px -20px 0px;
+    font-size: 3.5em;
+    margin: 10px -90px 40px 20%;
+    font-family: 'rationale';
+    color: #FF4000;
+    line-height: 0.8em;
+    text-align: left;
+    float: left;
 }
 
 h4
