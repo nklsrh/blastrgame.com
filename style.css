@@ -166,6 +166,22 @@ a:hover
 small
 {
 }
+
+#download {
+clear:both; 
+background-color: #FF5000; 
+border: 0 none; 
+color: #FFFFFF; 
+cursor: pointer; 
+display: inline-block; font-size:24px; font-weight: bold; padding:30px; text-align: center; text-decoration: none; vertical-align: middle; white-space: nowrap; width: auto; 
+margin: 10px;
+    font-family: 'rationale';
+}
+
+#download:hover 
+{
+background-color:#00008C;
+}
 		
 #mc_embed_signup
 {
@@ -180,6 +196,8 @@ small
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
 #mc_embed_signup .button {clear:both; background-color: #FF8000; border: 0 none; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+
+
 #mc_embed_signup .button:hover {background-color:#00008C;}
 #mc_embed_signup .small-meta {font-size: 11px;}
 #mc_embed_signup .nowrap {white-space:nowrap;}     
