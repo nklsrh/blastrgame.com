@@ -1,11 +1,11 @@
 ﻿body
 {
-    font-family: 'Roboto';
+    font-family: 'Exo2';
     font-size: 1.2em;
     margin: 0px;
 	text-align: center;
 	background-color: #1A0066;
-	background-image: url('./img/pass4/bg2.jpg'); 
+	background-image: url('./img/pass2/bg.png'); 
     background-size: 100%;
     color: white;
     font-family: 'Exo2';
@@ -19,7 +19,7 @@ h1
 
 h2
 {
-    font-size: 3.5em;
+    font-size: 2.4em;
     font-family: 'rationale';
     color: #FF5000;
     line-height: 0.8em;
@@ -48,9 +48,10 @@ h4
 
 h5
 {
-    font-size: 1.2em;
-    font-family: 'rationale';
-    line-height: 0.2em;
+    font-size: 0.9em;
+    font-family: 'Exo2';
+    line-height: 0.6em;
+    text-align: left;
     color: #ffffff;
 }
 
@@ -83,9 +84,10 @@ p
     margin-left: 2px;
 }
 
-#content
-{  
-}
+#nkl {box-shadow: #ff5000 0px 0 0 0;}
+#nkl:hover{box-shadow: #ff5000 0px 0px 40px 0px;}
+#dln {box-shadow: #ff5000 0 0 0 0;}
+#dln:hover{box-shadow: #ff5000 0px 0px 40px 0px;}
 
 #nametag ul
 {
@@ -154,6 +156,16 @@ p
 #latest 
 {
     display: inline-block;
+	float: left;
+}
+#latest2 
+{
+    display: inline-block;
+	margin-top: 40px;
+}
+#latest2 li
+{	
+    list-style-type: none;
 }
 a
 {
@@ -177,11 +189,26 @@ display: inline-block; font-size:24px; font-weight: bold; padding:30px; text-ali
 margin: 10px;
     font-family: 'rationale';
 }
+#download2 {
+clear:both; 
+background-color: #FF5000; 
+border: 0 none; 
+color: #FFFFFF; 
+cursor: pointer; 
+display: inline-block; font-size:24px; font-weight: bold; padding: 10px 30px 10px 30px; text-align: center; text-decoration: none; vertical-align: middle; white-space: nowrap; width: auto; 
+margin: 10px;
+    font-family: 'rationale';
+}
 
 #download:hover 
 {
 background-color:#00008C;
 }
+#download2:hover 
+{
+background-color:#00008C;
+}
+		
 		
 #mc_embed_signup
 {
@@ -191,11 +218,11 @@ background-color:#00008C;
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup form {text-align:center;  }
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input {border:1px solid #ff5000; -webkit-appearance:none;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #FF8000; border: 0 none; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button {clear:both; background-color: #ff5000; border: 0 none; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
 
 
 #mc_embed_signup .button:hover {background-color:#00008C;}
